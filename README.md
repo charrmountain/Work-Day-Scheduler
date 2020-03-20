@@ -2,7 +2,7 @@
 
 ## **Description**
 
--  User plans day from business hours *9 AM - 5 PM*. Planner alerts green when hour is future, alerts red if it is current, and grey if the hour has passed. 
+-  User plans day from business hours *9 AM - 5 PM*. Planner alerts green when hour is future, alerts red if it is current, and grey if the hour has passed. If user reloads page the plans they have saved in each specific hour will reappear. 
 
     - ### **HTML pages:**
          1. [index.html](index.html) is the main page for scheduler
