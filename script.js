@@ -34,18 +34,12 @@ timeBlockElements.each(function () {
         });
 
             var timeBlocks = $(".time-block")
-                // console.log("timeblock", timeBlocks)
+            //make timeblocks for a second time
             timeBlocks.each(function(index, element) {
-                //console.log('INDEX', index)
-                //console.log('ELEMENT', element)
-                console.log(element.id)
+
                 if (localStorage.getItem(element.id)) {
                     var descriptionText = localStorage.getItem(element.id)
                         // update dom with the returned data
-                        // $(element.id)
-                    console.log('SOMNE DATA', JSON.parse(descriptionText))
-                    console.log('THE HOUR BLOCK', $(element))
-                    console.log('TEXTAREA', $(element).children('textarea'))
                     $(element).children("textarea").val(JSON.parse(descriptionText))
                 } 
             })
@@ -55,11 +49,11 @@ timeBlockElements.each(function () {
                     $(this).addClass("present")
                 }
                     //time block is green if its future
-                    else if (currentHour > timeBlockHr){
+                    else if (currentHour < timeBlockHr){
                         $(this).addClass("future")
                     }
                     //time block is grey if its past
-                    else if (currentHour < timeBlockHr){
+                    else if (currentHour > timeBlockHr){
                         $(this).addClass("past")
                     }
 
