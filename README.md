@@ -26,4 +26,4 @@
 
 ## **Support**
 - e-mail: charr.mt@gmail.com
-- https://github.com/charrmountain/Work-Day-Scheduler
+- [GitHub](https://github.com/charrmountain/Work-Day-Scheduler)
