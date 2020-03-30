@@ -1,5 +1,7 @@
 #  **Work Day Scheduler** #
 
+[Deployed Link](https://charrmountain.github.io/work-day-scheduler/) 
+
 ## **Description**
 
 -  User plans day from business hours *9 AM - 5 PM*. Planner alerts green when hour is future, alerts red if it is current, and grey if the hour has passed. If user reloads page the plans they have saved in each specific hour will reappear. 
@@ -14,6 +16,7 @@
 
 
 ## **Visuals**
+![alt](Assets/DEMO.gif)
 - Daily planner
 - Displays current Date and Year
 - Green, Red, and Grey for Past, Present, and Future
